@@ -1,26 +1,158 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-
-h2{
-color:blue;
-font-size:20px;
-
+  <style>
+  { 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family Roboto, sans-serif, arial;
 }
-p{
-color:orange;
-font-size:20px;
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
 }
-
-</style>
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+  </style>
+<title>Student Portfolio Website Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="main panel">
+  <div class="container">
+    <div class="width-33 logo">Port<span class="span-col">folio</span>
+    </div>
+    <div class="width-66">
+      <nav>
+        <a href="#">
+          <span class="span-col">Home</span>
+        </a>
+        <a href="#">About me</a>
+        <a href="#">Education</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Testinomial</a>
+      </nav>
+    </div>
+  </div>
+  <style>
+    .main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
 
-<h1 style="color:red;font-size:30px;text-align:center;">Profile</h1>
-<h2>Info</h2>
-<p>Name:Ande Tejavardhan<br>Gender:male<br>Age=18 yrs</p>
-<h2>Educational background</h2>
-<h2>Experience</h2>
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
 
-</body>
-</html>
+.span-col {
+	color: #ffbf35;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: white;
+}
+  </style>
+<div class="container ">
+  <div class="width-50">
+    <div class="banner-section">
+      <span class="span-col">Welcome To Myportfolio.com</span>
+      <h1>Teja <span class="span-col">Vardhan</span>
+      </h1>
+      <h2>- I'm a passionate web developer from IIIT Allahabad.</h2>
+      <a href="#">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-github"></i>
+      </a>
+    </div>
+  </div>
+  <div class="width-50">
+    <img src="downloads/background.jpg">
+  </div>
+</div>
+</div>
+<style>
+  .width-50 {
+	float: left;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #ffbf35;
+	color: #ffbf35;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+/*****Main BANNER IMAGE*****/
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+}
+
+
+</style>
